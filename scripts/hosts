@@ -1,5 +1,3 @@
-[switches]
-
 [cumulus]
 cumulus ansible_host=10.52.235.12
 
