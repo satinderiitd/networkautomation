@@ -1,0 +1,8 @@
+---
+- name: Enable OSPF
+  nclu:
+   commands:
+   - add ospf router-id 1.1.1.1
+   - add ospf network 192.168.1.0/24 area 0.0.0.0
+   atomic: true
+   description: "Enable OSPF"

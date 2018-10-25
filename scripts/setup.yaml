@@ -1,0 +1,4 @@
+- hosts: cumulus
+  roles:
+  - cumulus_add_ospf
+

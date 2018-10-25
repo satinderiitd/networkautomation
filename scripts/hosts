@@ -1,0 +1,18 @@
+[switches]
+
+[cumulus]
+cumulus ansible_host=10.52.235.12
+
+[vyos]
+vyos ansible_host=10.52.235.24
+
+[vyos:vars]
+ansible_connection=local
+ansible_user=vyos
+host_key_checking=False
+ansible_password=vyos
+ansible_network_os=vyos
+
+[cumulus:vars]
+ansible_user=cumulus
+ansible_ssh_pass=CumulusLinux!
